@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    color: rgb(19, 18, 18);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(73, 60, 60);
+    font-size: 16px;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.acc{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+.account {
+    color: rgb(80, 62, 62);
+    cursor: pointer;
+}
+.account > img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+.left{
+    width: 60%;
+    margin: 30px;
+    padding: 20px;
+}
+.process{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 50%;
+}
+.form1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 18px;
+}
+.action{
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 20px;
+    align-items: center;
+}
+.action a{
+    text-decoration: none;
+    color: rgb(90, 141, 90);
+}
+
+#login{
+    color: white;
+    padding: 10px;
+    background-color: rgb(76, 76, 189);
+    border-radius: 6px;
+}
+.action a{
+    text-decoration: none;
+    color: rgb(90, 141, 90);
+}
+.action2{
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 20px;
+    align-items: center;
+}
+.action2 a{
+    text-decoration: none;
+    color: rgb(90, 141, 90);
+}
+.right{
+    margin: 30px;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+.right img{
+    height: 5rem;
+    width: 100%;
+}
+.first{
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+}
+.first .desc h1{
+    font-size: 14px;
+}
+.first .quantity{
+    display: flex;
+    gap: 30px;
+}
+.first .quantity p{
+    font-size: 20px;
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+}
+.form2 input{
+    outline: none;
+    background-color: rgb(218, 203, 203);
+    border: none;
+    height: 2em;
+    border-radius: 3px;
+}
+.form2 button{
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: blue;
+    border: 2px rgb(99, 99, 243) solid;
+    margin-left: 3em;
+}
+.final{
+    display: flex;
+    justify-content: space-between;
+ height: 50px;
+}
+.final .right2{
+    margin-right: 5em;
+}
+.firstForm form input{
+    outline: none;
+    background-color: rgb(218, 203, 203);
+    border: none;
+    height: 2em;
+    border-radius: 3px;
+}
