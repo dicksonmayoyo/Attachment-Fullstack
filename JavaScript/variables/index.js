@@ -75,6 +75,3 @@ let str = String(50);
 
 // 17. What will be the result of this operation?
 console.log(5 + true); // 6 (true is coerced into 1)
-
-
-
