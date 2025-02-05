@@ -51,7 +51,7 @@ let anotherBigInt = BigInt(12345678901234567890); // Using BigInt() constructor
 let person = {
     name: "Alice",
     age: 30,
-    city: "New York"
+    city: "Los Angeles"
 };
 
 // 11. Add a new property email to the person object
