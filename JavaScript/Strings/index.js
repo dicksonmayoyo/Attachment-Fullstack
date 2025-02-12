@@ -102,39 +102,36 @@ function insert(str, insertStr, position) {
 console.log(insert('We are doing some exercises.', 'JavaScript ', 18)); // "We are doing some JavaScript exercises."
 
 // 15. Write a JavaScript function that formats a number with the correct suffix (1st,
-// 2nd, etc.).
-function humanize_format(num) {
+// 2nd, etc).
+function humanizeFormat(num) {
     let suffixes = ['th', 'st', 'nd', 'rd'];
     let lastDigit = num % 10;
     let suffix = (num % 100 >= 11 && num % 100 <= 13) ? 'th' : suffixes[lastDigit] || 'th';
     return num + suffix;
 }
 
-console.log(humanize_format(301)); // "301st"
+console.log(humanizeFormat(301)); // "301st"
 
 // 16. Write a JavaScript function to truncate a string and append "..."
 function textTruncate(str, length, ending = '...') {
     return str.length > length ? str.slice(0, length) + ending : str;
 }
-
 console.log(textTruncate('We are doing JS string exercises.', 15, '!!')); // "We are doing !!"
 
 // 17. Write a JavaScript function to chop a string into chunks.
-function string_chop(str, size) {
+function stringChop(str, size) {
     let chunks = [];
     for (let i = 0; i < str.length; i += size) {
         chunks.push(str.slice(i, i + size));
     }
     return chunks;
 }
-
-console.log(string_chop('w3resource', 3)); // ["w3r", "eso", "urc", "e"]
+console.log(stringChop('w3resource', 3)); // ["w3r", "eso", "urc", "e"]
 
 // 18. Write a JavaScript function to count occurrences of a substring in a string.
 function count(str, sub) {
     return str.toLowerCase().split(sub.toLowerCase()).length - 1;
 }
-
 console.log(count("The quick brown fox jumps over the lazy dog", 'the')); // 2
 
 // 19. Write a JavaScript function that reverses the binary representation of a number
@@ -142,13 +139,11 @@ console.log(count("The quick brown fox jumps over the lazy dog", 'the')); // 2
 function reverseBinary(num) {
     return parseInt(num.toString(2).split('').reverse().join(''), 2);
 }
-
 console.log(reverseBinary(100)); // 19
 
 // 20. Write a JavaScript function to pad a string to a specified length.
-function formatted_string(format, num, align) {
+function formattedString(format, num, align) {
     num = num.toString();
     return align === 'l' ? format.slice(0, -num.length) + num : num + format.slice(num.length);
 }
-
-console.log(formatted_string('0000', 123, 'l')); // "0123"
+console.log(formattedString('0000', 123, 'l'));// "0123"
