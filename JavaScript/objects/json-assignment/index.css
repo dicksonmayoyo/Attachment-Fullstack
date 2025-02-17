@@ -1,9 +1,17 @@
 body {
      font-family: Arial, sans-serif;
      }
+     h1{
+          text-align: center;
+          text-transform: uppercase;
+          color: green;
+     }
 .product { 
-    border: 1px solid #ddd;
+    border: 2px solid green;
     padding: 10px; 
-    margin: 10px; 
+    margin: auto; 
     border-radius: 5px;
+    width: 50%;
+    margin-top: 50px;
+    box-shadow: 1;
  }
