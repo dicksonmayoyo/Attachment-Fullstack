@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef1f7;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* User Profile Container */
+.user-profile {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    text-align: center;
+    border-top: 6px solid #0073e6;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Heading */
+h1 {
+    font-size: 24px;
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Sections */
+section {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    border-left: 5px solid #0073e6;
+
+}
+
+/* Section Titles */
+section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #0073e6;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Transactions */
+#transactions {
+    border-left: 5px solid #28a745;
+}
+
+#transactions h2 {
+    color: #28a745;
+}
+
+/* Transaction List */
+.transaction-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.transaction-list li {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    border-left: 4px solid #28a745;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .user-profile {
+        width: 95%;
+        height: 95vh;
+        padding: 15px;
+    }
+}
